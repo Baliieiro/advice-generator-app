@@ -1,0 +1,63 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+}
+button {
+  background-color: #52ffa8;
+  background-image: url(/src/assets/icons/icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: relative;
+  bottom: 3.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  -webkit-box-shadow: 0px 0px 50px 0px #52ffa8;
+  -moz-box-shadow: 0px 0px 50px 0px rgba(82, 255, 168, 1);
+  box-shadow: 0px 0px 50px 0px rgba(82, 255, 168, 1);
+}
+
+section {
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 0.75rem;
+  text-align: center;
+  padding: 2rem 2.5rem 1rem 2.5rem;
+  margin: 1rem;
+  h2 {
+    color: #52ffa8;
+    font-size: 1rem;
+  }
+  .advice {
+    font-size: 28px;
+    text-align: center;
+    max-width: 450px;
+  }
+  .devide {
+    display: block;
+    background-position: center;
+    height: 16px;
+    background-repeat: no-repeat;
+    margin: 2rem 0 4rem;
+    background-image: url(src/assets/icons/pattern-divider-desktop.svg);
+  }
+}
